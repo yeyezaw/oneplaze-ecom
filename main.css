@@ -1,0 +1,38 @@
+/* Typography */
+@import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700);
+
+
+body{
+    font-family: 'Oxygen', sans-serif;
+    position: relative;
+    font-size: 13px;
+    font-weight: 300;
+    color: #444;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    outline: none;
+    text-decoration: none;
+    color: #444;
+}
+
+a:hover{
+    background: transparent !important;
+    outline: none;
+    text-decoration: none;
+}
+
+/* header-top */
+.header-top{
+    background: #ff5252;
+}
+
+/* header-middle */
+.header-middle{
+    height: 80px;
+    border-bottom: 1px solid #ffcdd2;
+}
