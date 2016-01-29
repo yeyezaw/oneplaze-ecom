@@ -28,11 +28,20 @@ a:hover{
 
 /* header-top */
 .header-top{
-    background: #ff5252;
+    background: #FFF9C4;
 }
 
 /* header-middle */
 .header-middle{
-    height: 80px;
+    height: 70px;
     border-bottom: 1px solid #ffcdd2;
+}
+
+.logo-brand{
+  padding-top: 12px;    
+  width: 50%;   
+}
+
+.shop-menu{
+    padding-top: 10px;
 }
