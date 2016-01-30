@@ -27,6 +27,16 @@ a:hover{
     text-decoration: none;
 }
 
+a:visited{
+    background: #333;
+}
+
+.btn:hover, 
+.btn:focus{
+  outline: none;
+  box-shadow: none;
+}
+
 /* header-top */
 .header-top{
     background: #FFF9C4;
@@ -45,4 +55,39 @@ a:hover{
 
 .shop-menu{
     padding-top: 10px;
+}
+
+/* header-bottom */
+.main-menu{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.search-box{
+    margin-top: 10px;
+}
+
+.search-box input{
+    font-family: 'Oxygen', sans-serif;
+    outline: none;
+    background: #333;
+    color: #fff;
+    border: 1px solid #E91E63;
+    border-radius: 1px;
+    width: 150px;
+    height: 30px;
+}
+
+/* slider */
+#slider .item{
+    outline: none;
+}
+
+/* Slick styles */
+.slick-dots{
+    bottom: 5px;
+}
+
+.slick-dots li button:before{
+    font-size: 9px;
 }

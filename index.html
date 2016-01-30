@@ -6,8 +6,9 @@
     <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- Font Awesome link -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <!-- Custom Font links -->
-    
+    <!--  Slick Css link -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
+    <link rel="stylesheet" href="slick-1.5.9/slick/slick-theme.css">
     <!-- Main CSS link -->
     <link rel="stylesheet" href="main.css">
     <title>Oneplaze | All your needs in one place. </title>
@@ -74,23 +75,98 @@
                                                     <span class="icon-bar"></span>
                                                     <span class="icon-bar"></span>
                                                 </button>
-						</div>
-                                </div>
-                                
-                                <div class="col-sm-3">
+						                </div>
+                                        
+                                        <div class="main-menu">
+                                                <ul class="nav navbar-nav">
+                                                        <li class="active"><a href="index.html">Home</a></li>
+                                                        <li><a href="#">About</a></li>
+                                                        <li><a href="#">Contact us</a></li>
+                                                </ul>
+                                        </div>      
+                                        
+					                </div>
+                               
+                                     <div class="col-sm-3">
                                         <div class="search-box pull-right">
                                                 <input type="text" placeholder="Search">
                                         </div>
+                                    </div>   
                                 </div>
-                        </div>
                 </div>
         </div><!-- End of header-bottom -->
     </header><!-- End of main header -->
+    
+    <section id="slider"><!-- Slider -->
+            <div class="container">
+                    <div class="row">
+                            <div class="col-sm-12">
+                                            <div class="slides">
+                                                    <div class="item"> <!-- Slide 1 -->
+                                                            <div class="col-sm-6">
+                                                                    <h1>OnePlaze (slide 1)</h1>
+                                                                    <h2>All your needs in one place.</h2>
+                                                                    <p>
+                                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione a culpa, pariatur adipisci repudiandae natus odit, explicabo reiciendis maiores optio provident similique numquam voluptates impedit! Ut, corporis aspernatur animi dolorum.
+                                                                    </p>
+                                                                    <a href="#" type="button" class="btn btn-primary get">Get it now</a>
+                                                            </div>
+                                                            
+                                                            <div class="col-sm-6">
+                                                                    <img src="img/girl1.jpg" class="girl img-responsive" alt="">
+                                                            </div>
+                                                    </div><!-- End of slide 1 -->
+                                                    
+                                                    <div class="item"><!-- Slide 2 -->
+                                                            <div class="col-sm-6">
+                                                                    <h1>OnePlaze(slide 2)</h1>
+                                                                    <h2>All your needs in one place.</h2>
+                                                                    <p>
+                                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione a culpa, pariatur adipisci repudiandae natus odit, explicabo reiciendis maiores optio provident similique numquam voluptates impedit! Ut, corporis aspernatur animi dolorum.
+                                                                    </p>
+                                                                    <a href="#" type="button" class="btn btn-primary get">Get it now</a>
+                                                            </div>
+                                                            
+                                                            <div class="col-sm-6">
+                                                                    <img src="img/girl1.jpg" class="girl img-responsive" alt="">
+                                                            </div>
+                                                    </div><!-- End of slide 2 -->
+                                                    
+                                                    <div class="item"><!-- Slide 3 -->
+                                                            <div class="col-sm-6">
+                                                                    <h1>OnePlaze(slide 3)</h1>
+                                                                    <h2>All your needs in one place.</h2>
+                                                                    <p>
+                                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione a culpa, pariatur adipisci repudiandae natus odit, explicabo reiciendis maiores optio provident similique numquam voluptates impedit! Ut, corporis aspernatur animi dolorum.
+                                                                    </p>
+                                                                    <a href="#" type="button" class="btn btn-primary get">Get it now</a>
+                                                            </div>
+                                                            
+                                                            <div class="col-sm-6">
+                                                                    <img src="img/girl1.jpg" class="girl img-responsive" alt="">
+                                                            </div>
+                                                    </div> <!--End of slide 3 -->
+                                            </div>
+                            </div>
+                    </div>
+            </div>
+    </section><!-- End of slider -->
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
+    
 
-<script>
+    <script>
+            $('.slides').slick({
+                slidesToShow: 1,
+                autoplay: true,
+                autoplaySpeed: 5000,
+                arrows: false,
+                dots: true,
+                pauseOnHover: false
+            });
+    </script>
 
-</script>
 </body>
 </html>
