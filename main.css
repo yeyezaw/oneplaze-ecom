@@ -57,6 +57,10 @@ a:visited{
     padding-top: 10px;
 }
 
+.shop-menu a{
+    padding-right: 0 !important;
+}
+
 /* header-bottom */
 .main-menu{
     font-size: 15px;
@@ -70,11 +74,11 @@ a:visited{
 .search-box input{
     font-family: 'Oxygen', sans-serif;
     outline: none;
-    background: #333;
+    background: #CFD8DC;
     color: #fff;
-    border: 1px solid #E91E63;
+    border: 1px solid #CFD8DC;
     border-radius: 1px;
-    width: 150px;
+    width: 130px;
     height: 30px;
 }
 
@@ -83,6 +87,9 @@ a:visited{
     outline: none;
 }
 
+.each-slide{
+    margin-top: 100px;
+}
 /* Slick styles */
 .slick-dots{
     bottom: 5px;
