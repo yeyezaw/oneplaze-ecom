@@ -157,7 +157,7 @@ h2.features-title{
 }
 
 .service-container{
-    padding-top: 80px;
+    padding-top: 100px;
 }
 
 .service-container p{
@@ -203,6 +203,10 @@ h2.service-title{
     padding-top: 40px;
 }
 
+.support h5, .shop h5, .payment-methods h5, .socials h5{
+    text-transform: uppercase;
+}
+
 .support li{
     list-style: none;
 }
@@ -210,6 +214,7 @@ h2.service-title{
 .shop li{
     list-style: none;
 }
+
 
 .socials ul{
     padding: 0;
@@ -236,6 +241,15 @@ h2.service-title{
 .footer-bottom-text{
     margin-top: 12px;
     padding-top: 5px;
+}
+
+.footer-bottom-text p{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-bottom-text a{
+    color: #fff;
 }
 /********** Slick styles **********/
 .slick-dots{
