@@ -1,9 +1,10 @@
 /* Typography */
 @import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,500,700);
 
 
 body{
-    font-family: 'oxygen',sans-serif;
+    font-family: 'ubuntu',sans-serif;
     position: relative;
     font-size: 13px;
     font-weight: 300;
@@ -76,12 +77,14 @@ a:visited{
 
 .search-box{
     margin-top: 10px;
+    
 }
 
 .search-box input{
     font-family: 'Oxygen', sans-serif;
     outline: none;
-    background: #ecf0f1;
+    background: #E91E63;
+    color: #fff;
     border: 1px solid #ecf0f1;
     border-radius: 1px;
     width: 150px;
