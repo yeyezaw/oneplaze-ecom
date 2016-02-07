@@ -9,6 +9,8 @@ $(document).ready(function(){
                 pauseOnHover: false
     });
     
+    $('#accordian').accordion();
+    
     $('.thumbnail').click(function(){
         
     });
